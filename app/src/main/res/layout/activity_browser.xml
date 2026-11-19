@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/browser_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/prism_obsidian"
+    android:orientation="vertical">
+
+    <!-- Matte-dark (#0F1216) top browser chrome powered by Compose -->
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/top_chrome_compose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Main viewport: hardware-accelerated WebView container + Start Page / Modal Sheet overlay -->
+    <FrameLayout
+        android:id="@+id/viewport_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/prism_obsidian">
+
+        <!-- Native Android System WebView instances are attached directly here for 120Hz scrolling -->
+        <FrameLayout
+            android:id="@+id/webview_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/prism_obsidian" />
+
+        <!-- Compose overlay for Dark Start Page, Multi-Tab Sheet, Protection Diagnostics Sheet, and Snackbars -->
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/overlay_compose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</LinearLayout>

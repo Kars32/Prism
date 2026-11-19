@@ -1,0 +1,6 @@
+{
+  "name": "Prism",
+  "description": "Capture-safe matte-dark Android browser with a Rust JNI core, Layer 1 FLAG_SECURE clearing, Layer 2 document-start JS visibility shim, and Permissions-Policy header stripping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

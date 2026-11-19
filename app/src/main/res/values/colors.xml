@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="prism_obsidian">#0F1216</color>
+    <color name="prism_surface">#171C23</color>
+    <color name="prism_outline">#262E3A</color>
+    <color name="prism_cyan">#38BDF8</color>
+    <color name="prism_violet">#A78BFA</color>
+    <color name="prism_emerald">#34D399</color>
+</resources>

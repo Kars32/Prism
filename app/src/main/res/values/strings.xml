@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Prism</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_forward">Go forward</string>
+    <string name="cd_reload">Reload page</string>
+    <string name="cd_stop">Stop loading</string>
+    <string name="cd_protection_status">Capture protection diagnostics</string>
+    <string name="cd_toggle_private">Toggle normal and private mode</string>
+    <string name="cd_open_tabs">Open tab switcher</string>
+    <string name="cd_clear_url">Clear address</string>
+    <string name="cd_close_tab">Close tab</string>
+    <string name="cd_new_normal_tab">New normal tab</string>
+    <string name="cd_new_private_tab">New private tab</string>
+    <string name="cd_prism_hero">Prism optical glass header artwork</string>
+    <string name="hint_address_bar">Search or enter URL</string>
+    <string name="label_normal">Normal</string>
+    <string name="label_private">Private</string>
+    <string name="label_capture_ready">Capture Ready</string>
+    <string name="label_private_wiped">Private tab data cleared</string>
+    <string name="label_all_private_wiped">All private tabs and storage wiped</string>
+</resources>
